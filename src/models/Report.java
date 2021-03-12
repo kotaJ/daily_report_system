@@ -66,6 +66,20 @@ public class Report {
     @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
 
+
+    @Column(name = "like_count" , nullable = false) //いいね数のプロパティを追加
+    private Integer like_count;
+
+
+
+    public Integer getLike_count() {//いいね数のゲッターセッターを追加
+        return like_count;
+    }
+
+    public void setLike_count(Integer like_count) {
+        this.like_count = like_count;
+    }
+
     public Integer getId() {
         return id;
     }

@@ -18,9 +18,9 @@ body {
 }
 
 h1 {
-
-  font-size: 24px;
+    font-size: 24px;
     display: inline;
+}
 
 h2 {
     font-size: 36px;
@@ -69,6 +69,7 @@ button {
 #footer {
     text-align: center;
 }
+
 #flush_success {
     width: 100%;
     padding-top: 28px;
@@ -156,4 +157,8 @@ table#report_list .report_action {
 
 pre {
     font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+}
+
+h3 {
+    font-size: larger;
 }
